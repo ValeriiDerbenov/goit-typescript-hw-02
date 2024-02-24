@@ -10,9 +10,6 @@ class Component<T> {
   }
 }
 
-interface PageProps extends ComponentProps {
-  title: string
-}
 class Page extends Component<ComponentProps> {
   pageInfo () {
     console.log(this.props.title);
